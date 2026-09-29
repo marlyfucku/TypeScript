@@ -23,7 +23,6 @@ function describeUser(name: string, age?: number): string {
     return name;
 }
 
-// Корректные вызовы
 console.log(formatPrice(1234.5));      // "1 234,50 ₽"
 console.log(clamp(15, 0, 10));         // 10
 logMessage("Привет");                  // "Привет"

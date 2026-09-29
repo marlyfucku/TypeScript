@@ -6,7 +6,7 @@ const books = [
     createBook("Преступление и наказание", "Фёдор Достоевский", 1866),
 ];
 
-// проверка на существование наших книг в массиве
+
 if (books[0] && books[2]) {
     books[0] = markAsRead(books[0]);
     books[2] = markAsRead(books[2]);

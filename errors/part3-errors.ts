@@ -11,6 +11,6 @@ function logMessage(message: string): void {
 }
 
 // Задание 3.2: некорректные вызовы
-formatPrice("100"); // Argument of type 'string' is not assignable to parameter of type 'number'.
-clamp(5, 0);        // Expected 3 arguments, but got 2.
-logMessage(123);    // Argument of type 'number' is not assignable to parameter of type 'string'.
+formatPrice("100");
+clamp(5, 0);        
+logMessage(123);    
