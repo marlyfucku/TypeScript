@@ -1,0 +1,18 @@
+{
+  "name": "ts-practice-1",
+  "version": "1.0.0",
+  "description": "Лабораторная работа: введение в TypeScript",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "check-errors": "tsc -p tsconfig.errors.json"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.9.3"
+  },
+  "keywords": [],
+  "author": "",
+  "type": "commonjs"
+}
